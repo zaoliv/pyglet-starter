@@ -16,7 +16,7 @@ def update(dt):
 def on_draw():
     win.clear()
     img.blit(200, 100)
-    img.blit(400, 100)
+    #img.blit(400, 100)
     # spr.draw()
 
 pyglet.clock.schedule(update) 
